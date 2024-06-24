@@ -9,11 +9,11 @@ COMPANY_NAME = "Tesla Inc"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
-STOCK_API_KEY = "GC0JORQN9LNLEXY2"
-NEW_API_KEY = "e240b5b86fc7433bb3fd2ca2f2b05d67"
+STOCK_API_KEY
+NEW_API_KEY
 
-TWILIO_KEY = "a950dd91ae1ceada11725d9029a50d98"
-TWILIO_SID = "ACf16c1ba481abf32f1f5cd5ef6b2276c4"
+TWILIO_KEY
+TWILIO_SID
 
 client = Client(TWILIO_SID, TWILIO_KEY)
 

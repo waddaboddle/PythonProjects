@@ -4,8 +4,7 @@ from flight_search import FlightSearch
 from twilio.rest import Client
 
 # This file will need to use the DataManager,FlightSearch, FlightData, NotificationManager classes to achieve the program requirements.
-account_sid = 'ACf16c1ba481abf32f1f5cd5ef6b2276c4'
-auth_token = 'a950dd91ae1ceada11725d9029a50d98'
+
 client = Client(account_sid, auth_token)
 
 data_manager = DataManager()
